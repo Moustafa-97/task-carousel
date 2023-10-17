@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new UI</title>
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader">
+        <div
+          aria-label="Orange and tan hamster running in a metal wheel"
+          role="img"
+          class="wheel-and-hamster"
+        >
+          <div class="wheel"></div>
+          <div class="hamster">
+            <div class="hamster__body">
+              <div class="hamster__head">
+                <div class="hamster__ear"></div>
+                <div class="hamster__eye"></div>
+                <div class="hamster__nose"></div>
+              </div>
+              <div class="hamster__limb hamster__limb--fr"></div>
+              <div class="hamster__limb hamster__limb--fl"></div>
+              <div class="hamster__limb hamster__limb--br"></div>
+              <div class="hamster__limb hamster__limb--bl"></div>
+              <div class="hamster__tail"></div>
+            </div>
+          </div>
+          <div class="spoke"></div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------- -->
+    <header class="three-sec-header">
+      <div class="top-header">
+        <div class="container">
+          <div class="left-side">
+            <div class="email">
+              <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+              "test@test.com"
+            </div>
+            <div class="phone">
+              <i class="fa-solid fa-phone" style="color: #000000;"></i>
+              "+201123698452"
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="social-icons">
+              <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+              <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+              <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i>
+            </div>
+            <div class="lang-dropdown">
+              <li class="nav-item dropdown">
+                <a
+                  id="dropmenu"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  change language
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a id="englishLang" class="dropdown-item" href="#"
+                      >English</a
+                    >
+                  </li>
+                  <li>
+                    <a id="germanLang" class="dropdown-item" href="#">German</a>
+                  </li>
+                </ul>
+              </li>
+            </div>
+            <div id="login" class="login">
+              <i
+                class="fa-solid fa-right-to-bracket"
+                style="color: #000000;"
+              ></i>
+              "login"
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mid-header">
+        <div class="container">
+          <div class="inner-header">
+            <div class="row">
+              <div class="col-lg-2 col-md-12">
+                <div class="logo">
+                  <a href="#">
+                    <img src="img/logo.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-12">
+                <div class="advanced-search">
+                  <button type="button" class="category-btn">
+                    All Categories
+                  </button>
+                  <div class="input-group">
+                    <input type="text" placeholder="What do you need?" />
+                    <button type="button">
+                      <i
+                        class="fa-solid fa-magnifying-glass"
+                        style="color: #000000;"
+                      ></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 text-right col-md-12 m-auto">
+                <ul class="nav-right">
+                  <li class="heart-icon">
+                    <a href="#">
+                      <i
+                        class="fa-regular fa-heart"
+                        style="color: #000000;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li class="cart-icon">
+                    <a href="#">
+                      <i
+                        class="fa-solid fa-bag-shopping"
+                        style="color: #04070b;"
+                      ></i>
+                    </a>
+                  </li>
+                  <li class="cart-price">$150.00</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="botton-header">
+        <div class="container">
+          <div class="top-menu">
+            <div class="btnHov">
+              <button type="button" class="category-btn">
+                All Categories
+              </button>
+              <ul class="categories">
+                <li><a href="#">men</a></li>
+                <li><a href="#">men</a></li>
+                <li><a href="#">men</a></li>
+              </ul>
+            </div>
+            <div class="allMenu">
+              <nav class="navbar navbar-expand-lg allMenu-class">
+                <div class="container-fluid m-auto">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="btnHov">
+              <button type="button" class="menu-btn">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+              </button>
+              <ul class="menu-categories">
+                <li><a href="#">men</a></li>
+                <li><a href="#">men</a></li>
+                <li><a href="#">men</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-menu"></div>
+        </div>
+      </div>
+    </header>
+    <!-- ------------------------- -->
+    <div id="userOffer" class="user-offers">
+      <div class="offer-details">
+        <div class="offerCat">
+          <p>Shoes, Bags</p>
+        </div>
+        <div class="offerHead">
+          <p>Black Friday</p>
+        </div>
+        <div class="offerDet">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
+            nesciunt.
+          </p>
+        </div>
+        <div class="shopNowBtn">
+          <button class="shopNow">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- -->
+    <div class="banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="single-banner">
+              <img src="img/banner-1.jpg" alt="" />
+              <div class="inner-text">
+                <h4>men's</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="single-banner">
+              <img src="img/banner-2.jpg" alt="" />
+              <div class="inner-text">
+                <h4>women's</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="single-banner">
+              <img src="img/banner-3.jpg" alt="" />
+              <div class="inner-text">
+                <h4>kids</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------ -->
+    <section class="w-100 product-women">
+      <div class="row container m-auto the-container">
+        <div class="col-lg-3 col-md-12 text-center bg-photo">
+          <p>Women's</p>
+          <button>Discover</button>
+        </div>
+        <div class="col-lg-9 col-md-12 text-center show-some">
+          <div class="row discover-prod">
+            <div class="col-12 nav-menu">
+              <ul>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Handbags</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Jeans</a></li>
+              </ul>
+            </div>
+            <div id="navProd" class="col-12 nav-prod">
+              <button id="left" class="scroll-left arrow"><</button>
+              <div id="test" class="test">
+                <div class="myCard">
+                </div>
+              </div>
+              <button id="right" class="scroll-right arrow">></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------ -->
+    <div class="timeBag container-fluid row m-auto">
+      <div class="timebagBg">
+        <div class="offerDesc col-lg-5 col-md-12 m-auto">
+          <div class="offerHeader m-auto">
+            <h4>Deal Of The Week</h4>
+          </div>
+          <div class="offerData my-5">
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+              voluptate reprehenderit ab, possimus pariatur labore?</span
+            >
+          </div>
+          <div class="offerPrice m-auto">
+            <span>$ 149.99 <span class="perBag">/bag</span></span>
+          </div>
+          <div class="countdown-timer" id="countdown">
+            <div id="days" class="cd-item">
+              <span>29</span>
+              <p>Days</p>
+            </div>
+            <div id="hours" class="cd-item">
+              <span>09</span>
+              <p>Hrs</p>
+            </div>
+            <div id="minutes" class="cd-item">
+              <span>44</span>
+              <p>Mins</p>
+            </div>
+            <div id="secondes" class="cd-item">
+              <span>02</span>
+              <p>Secs</p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-danger">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------- -->
+    <section class="w-100 product-women">
+      <div class="row container m-auto the-container">
+        <div class="col-lg-9 col-md-12 text-center show-some">
+          <div class="row discover-prod">
+            <div class="col-12 nav-menu">
+              <ul>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Handbags</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Jeans</a></li>
+              </ul>
+            </div>
+            <div id="navProd" class="col-12 nav-prod">
+              <button id="left" class="scroll-left arrow"><</button>
+              <div id="test" class="test">
+                <div class="myCard"></div>
+              </div>
+              <button id="right" class="scroll-right arrow">></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 text-center bg-photoM">
+          <p>Men's</p>
+          <button>Discover</button>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------- -->
+    <section class="users-cards">
+      <div id="userCards" class="user-info"></div>
+    </section>
+    <!------------------------------------->
+    <section class="experience">
+      <div class="fromTheBlog">
+        <h2>From The Blog</h2>
+      </div>
+      <div class="users-cards container">
+        <div class="card">
+          <img src="img/latest-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="date-comments">
+              <div class="date">
+                <i class="fa-regular fa-calendar" style="color: #c07d21;"></i>
+                <p>May 4,2019</p>
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-message" style="color: #c07d21;"></i>
+                <p>5</p>
+              </div>
+            </div>
+            <div class="user-par">
+              <h4 class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/latest-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="date-comments">
+              <div class="date">
+                <i class="fa-regular fa-calendar" style="color: #c07d21;"></i>
+                <p>May 4,2019</p>
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-message" style="color: #c07d21;"></i>
+                <p>5</p>
+              </div>
+            </div>
+            <div class="user-par">
+              <h4 class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/latest-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <div class="date-comments">
+              <div class="date">
+                <i class="fa-regular fa-calendar" style="color: #c07d21;"></i>
+                <p>May 4,2019</p>
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-message" style="color: #c07d21;"></i>
+                <p>5</p>
+              </div>
+            </div>
+            <div class="user-par">
+              <h4 class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services container">
+        <div class="serv-type">
+          <div class="serv-icon">
+            <i class="fa-solid fa-truck" style="color: #c89a1e;"></i>
+          </div>
+          <div class="serv-disc">
+            <h5>FREE SHIPPING</h5>
+            <span>For all order over 99$</span>
+          </div>
+        </div>
+        <div class="serv-type">
+          <div class="serv-icon">
+            <i class="fa-solid fa-truck" style="color: #c89a1e;"></i>
+          </div>
+          <div class="serv-disc">
+            <h5>FREE SHIPPING</h5>
+            <span>For all order over 99$</span>
+          </div>
+        </div>
+        <div class="serv-type">
+          <div class="serv-icon">
+            <i class="fa-solid fa-truck" style="color: #c89a1e;"></i>
+          </div>
+          <div class="serv-disc">
+            <h5>FREE SHIPPING</h5>
+            <span>For all order over 99$</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------- -->
+    <section class="logos">
+      <div class="container">
+        <div class="">
+          <div class="single-logo">
+            <div class="inserted-logos">
+              <img src="img/logo-1.png" alt="" />
+            </div>
+            <div class="inserted-logos">
+              <img src="img/logo-2.png" alt="" />
+            </div>
+            <div class="inserted-logos">
+              <img src="img/logo-3.png" alt="" />
+            </div>
+            <div class="inserted-logos">
+              <img src="img/logo-4.png" alt="" />
+            </div>
+            <div class="inserted-logos">
+              <img src="img/logo-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <footer class="footerSec">
+      <div class="container m-auto">
+        <div class="footerSecs row">
+          <div class="footerLogo col-lg-4 col-md-12">
+            <ul>
+              <li><img src="img/logo.png" alt="" /></li>
+              <li><p>Address: 60-49 Road 11378 New York</p></li>
+              <li><p>Phone: +65 11.188.888</p></li>
+              <li>Email: hello.colorlib@gmail.com</li>
+              <li>
+                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="information col-lg-2 col-md-12">
+            <ul>
+              <li><h5 class="nwan">information</h5></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">checkout</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">services</a></li>
+            </ul>
+          </div>
+          <div class="account col-lg-2 col-md-12">
+            <ul>
+              <li><h5 class="nwan">information</h5></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Shopping cart</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </div>
+          <div class="searchBar col-lg-4 col-md-12">
+            <ul>
+              <li><h5 class="nwan">Join Our Newsletter Now</h5></li>
+              <li>
+                <p>
+                  Get E-mail updates about our latest shop and special offers.
+                </p>
+              </li>
+
+              <li>
+                <div class="subscribe">
+                  <input type="text" placeholder="Enter your Email" />
+                  <button>Subscribe</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyRights">
+          <p>
+            Copyright ©2023 All rights reserved | This template is made with ♥️
+            by Moustafa
+          </p>
+          <img src="img/payment-method.png" alt="" />
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+
+    <!-- ------------------------------ -->
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+  </body>
+</html>
